@@ -2,11 +2,14 @@
 <html>
     <title>Flask Dojo Home></title>
     <head>
-        <h1>Flask Dojo Home<h1>
+        <h1 align='middle'>Flask Dojo Home<h1>
     </head>
     <body>
-        <form action='/request-counter'>
-            <input formaction='/request-counter' type='submit' class='button' name='get_button' value='Get'></input>
+        <form align='middle' action='/request-counter' method='GET'>
+            <input align='middle' formaction='/request-counter' type='submit' class='button' name='get_button' value='Get'></input>
+        </form>
+        <form align='middle' action='/request-counter' method='POST'>
+            <input formaction='/request-counter' type='submit' class='button' name='post_button' value='Post'></input>
         </form>
     </body>
 </html>
